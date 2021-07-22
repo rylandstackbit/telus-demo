@@ -244,7 +244,7 @@
 @media only screen and (max-width: 400px) {
   .site-navigation {
     width: 100%;
-    border-bottom: 1px;
+    border-bottom: 1px !important;
   }
 
   #menu-close {
