@@ -42,7 +42,7 @@ export default function Footer(props) {
                     </div>
                 </div>
             )}
-            <div className="footer-bottom outer">
+            <div className="footer-bottom outer bg-white">
                 <div className="inner">
                     {!hideNavLinks && !_.isEmpty(navLinks) && (
                         <div className="footer-nav">
