@@ -13,7 +13,7 @@ export default function BlogPostFooter(props) {
 
     return (
         <footer className="post-meta text-green">
-            {authorName && `, by ${authorName}`}
+            ${authorName}
         </footer>
     );
 }
