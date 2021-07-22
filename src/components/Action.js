@@ -28,7 +28,7 @@ export default function Action(props) {
             href={withPrefix(url)}
             {...attrs}
             className={classNames({
-                button: actionStyle === 'primary text-purple' || actionStyle === 'secondary',
+                button: actionStyle === 'primary' || actionStyle === 'secondary',
                 secondary: actionStyle === 'secondary',
                 'has-icon': !!actionIcon
             })}
