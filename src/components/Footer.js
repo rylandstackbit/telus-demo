@@ -24,7 +24,7 @@ export default function Footer(props) {
     return (
         <footer id="colophon" className="site-footer bg-white">
             {!_.isEmpty(footerSections) && (
-                <div className="footer-top outer">
+                <div className="footer-top outer bg-white">
                     <div className="inner">
                         <div className="grid footer-widgets">
                             {_.map(footerSections, (section, idx) => {
