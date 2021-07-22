@@ -8,7 +8,7 @@ import withPrefix from '../utils/withPrefix';
 export default function SectionFeatures(props) {
     const section = _.get(props, 'section');
     const sectionId = _.get(section, 'section_id');
-    const background = _.get(section, 'background', 'white');
+    const background = _.get(section, 'background', 'gray');
     const title = _.get(section, 'title');
     const subtitle = _.get(section, 'subtitle');
     const features = _.get(section, 'features');
