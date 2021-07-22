@@ -20,7 +20,7 @@ export default function ActionLink(props) {
 
     return (
         <Link href={withPrefix(url)} {...attrs}>
-            <span className="purple-text">
+            <span className="text-purple">
               {label}
             </span>
         </Link>
