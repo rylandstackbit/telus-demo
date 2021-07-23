@@ -38,7 +38,7 @@ export default function SectionHero(props) {
                                     href="#"
                                     className="primary"
                                 >
-                                    <span className={classNames({ 'order-first': actionIconPos === 'right' })}>{label}</span>
+                                    <span className="order-first">{label}</span>
                                 </Link>
                             }
                             </div>
