@@ -25,6 +25,9 @@ export default function Post(props) {
                                 <h1 className="post-title">Set Up Your Title in the Sidebar</h1>
                                 : <h1 className="post-title">{title}</h1>
                             }
+                            {subtitle === "lorem-ipsum" ? 
+                            :
+                            }
                             {subtitle && <div className="post-subtitle">{subtitle}</div>}
                         </header>
                         {image && (
