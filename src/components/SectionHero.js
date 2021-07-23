@@ -39,7 +39,7 @@ export default function SectionHero(props) {
                                     href="#"
                                     className="button"
                                 >
-                                    <span className="order-first">Get Started</span>
+                                    <span className="order-first">Get this deal</span>
                                 </a>
                             }
                             </div>
