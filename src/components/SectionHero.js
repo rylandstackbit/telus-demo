@@ -31,7 +31,6 @@ export default function SectionHero(props) {
                                 <ReactMarkdown>{content}</ReactMarkdown>
                             </div>
                         )}
-                        {actions && (
                             <div className="block-buttons">
                                 <CtaButtons actions={actions} />
                             </div>
