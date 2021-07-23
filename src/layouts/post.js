@@ -25,7 +25,6 @@ export default function Post(props) {
                                 <h1 className="post-title">This is The Title</h1>
                                 : <h1 className="post-title">{title}</h1>
                             }
-                            <h1 className="post-title">{title}</h1>
                             {subtitle && <div className="post-subtitle">{subtitle}</div>}
                         </header>
                         {image && (
