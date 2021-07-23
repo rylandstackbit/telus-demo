@@ -1,6 +1,7 @@
 import React from 'react';
 import _ from 'lodash';
 import ReactMarkdown from 'react-markdown';
+import Link from '../utils/link';
 
 import CtaButtons from './CtaButtons';
 import withPrefix from '../utils/withPrefix';
