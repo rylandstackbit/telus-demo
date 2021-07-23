@@ -26,10 +26,9 @@ export default function Post(props) {
                                 : <h1 className="post-title">{title}</h1>
                             }
                             {subtitle === "lorem-ipsum" ? 
-                            <div className="post-subtitle">Set Up Your Subtitle in the Sidebar</div>
-                            : <div className="post-subtitle">{subtitle}</div>
+                                <div className="post-subtitle">Set Up Your Subtitle in the Sidebar</div>
+                                : <div className="post-subtitle">{subtitle}</div>
                             }
-                            {subtitle && }
                         </header>
                         {image && (
                             <div className="post-image">
