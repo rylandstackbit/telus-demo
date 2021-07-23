@@ -22,7 +22,8 @@ export default function Action(props) {
     if (newWindow || noFollow) {
         attrs.rel = [(newWindow ? 'noopener' : '') + (noFollow ? 'nofollow' : '')].join(' ');
     }
-
+    console.log(actionStyle);
+    
     return (
         <Link
             href={withPrefix(url)}
