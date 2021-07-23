@@ -26,7 +26,8 @@ export default function Post(props) {
                                 : <h1 className="post-title">{title}</h1>
                             }
                             {subtitle === "lorem-ipsum" ? 
-                            :
+                            <div className="post-subtitle">{subtitle}</div>
+                            : <div className="post-subtitle">{subtitle}</div>
                             }
                             {subtitle && }
                         </header>
