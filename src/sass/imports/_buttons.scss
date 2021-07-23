@@ -1,8 +1,8 @@
 .button {
   -ms-flex-align: center;
   align-items: center;
-  background: $color-primary;
-  border: 2px solid $color-primary;
+  background: #2B8000 !important;
+  border: 2px solid #2B8000 !important;
   border-radius: $border-radius;
   box-sizing: border-box;
   color: #fff;
@@ -36,7 +36,12 @@
   }
 
   &.secondary {
-    background: transparent;
-    color: $color-primary;
+    border: 2px solid #2B8000 !important;
+    background: transparent !important;
+    color: #2B8000 !important;
   }
+}
+
+.text-purple {
+  color: #2B8000 !important;
 }

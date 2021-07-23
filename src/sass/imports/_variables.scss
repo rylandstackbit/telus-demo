@@ -2,8 +2,8 @@
 $font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !default;
 
 // Colors
-$color-primary: #0072ff !default;
-$color-secondary: #00c6ff !default;
+$color-primary: #fff !default;
+$color-secondary: #fff !default;
 
 $gray-100: #f7f9fb !default;
 $gray-200: #ebecf0 !default;
@@ -14,6 +14,18 @@ $gray-600: #4c5267 !default;
 $gray-700: #2c2f3b !default;
 
 $yellow-pale: #fcffc4 !default;
+
+.text-purple {
+  color: #533174 !important;
+}
+
+.font-bold {
+  font-weight: 900;
+}
+
+.bg-white {
+  background-color: #fff !important;
+}
 
 // Border radius
 $border-radius: 3px;

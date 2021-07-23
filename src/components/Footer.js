@@ -22,11 +22,11 @@ export default function Footer(props) {
     const links = _.get(footer, 'links');
 
     return (
-        <footer id="colophon" className="site-footer">
+        <footer id="colophon" className="site-footer bg-white">
             {!_.isEmpty(footerSections) && (
-                <div className="footer-top outer">
-                    <div className="inner">
-                        <div className="grid footer-widgets">
+                <div className="footer-top outer bg-white">
+                    <div className="inner bg-white">
+                        <div className="grid footer-widgets bg-white">
                             {_.map(footerSections, (section, idx) => {
                                 const sectionType = _.get(section, '__metadata.modelName');
                                 if (!sectionType) {
@@ -42,7 +42,7 @@ export default function Footer(props) {
                     </div>
                 </div>
             )}
-            <div className="footer-bottom outer">
+            <div className="footer-bottom outer bg-white">
                 <div className="inner">
                     {!hideNavLinks && !_.isEmpty(navLinks) && (
                         <div className="footer-nav">

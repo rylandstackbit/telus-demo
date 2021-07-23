@@ -22,7 +22,7 @@ export default function Action(props) {
     if (newWindow || noFollow) {
         attrs.rel = [(newWindow ? 'noopener' : '') + (noFollow ? 'nofollow' : '')].join(' ');
     }
-
+    
     return (
         <Link
             href={withPrefix(url)}
@@ -33,7 +33,6 @@ export default function Action(props) {
                 'has-icon': !!actionIcon
             })}
         >
-            {actionIcon && <Icon icon={actionIcon} />}
             <span className={classNames({ 'order-first': actionIconPos === 'right' })}>{label}</span>
         </Link>
     );

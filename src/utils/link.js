@@ -13,7 +13,7 @@ export default function Link({ children, href, ...other }) {
     }
 
     return (
-        <a href={href} {...other}>
+        <a href={href} {...other} className="text-purple">
             {children}
         </a>
     );

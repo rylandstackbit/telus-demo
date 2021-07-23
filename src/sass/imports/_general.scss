@@ -19,7 +19,7 @@ body {
 }
 
 a {
-  color: $color-primary;
+  color: #533174;
   text-decoration: underline;
   text-decoration-thickness: 1px;
   text-underline-offset: 0.125em;
@@ -37,7 +37,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: $gray-700;
+  color: #533174 !important;
   font-weight: bold;
   line-height: 1.16667;
   margin: 1.25em 0 0.5em;
@@ -92,6 +92,7 @@ h6 {
 
 p {
   margin: 0 0 1em;
+  color: black;
 }
 
 mark,
