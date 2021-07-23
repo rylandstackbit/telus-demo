@@ -36,11 +36,7 @@ export default function SectionHero(props) {
                                 <CtaButtons actions={actions} /> :
                                 <Link
                                     href="#"
-                                    className={classNames({
-                                        button: actionStyle === 'primary' || actionStyle === 'secondary',
-                                        secondary: actionStyle === 'secondary',
-                                        'has-icon': !!actionIcon
-                                    })}
+                                    className="primary"
                                 >
                                     <span className={classNames({ 'order-first': actionIconPos === 'right' })}>{label}</span>
                                 </Link>
