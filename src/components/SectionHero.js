@@ -34,7 +34,17 @@ export default function SectionHero(props) {
                             <div className="block-buttons">
                             {actions ? 
                                 <CtaButtons actions={actions} /> :
-                                
+                                <Link
+                                    href={withPrefix(url)}
+                                    {...attrs}
+                                    className={classNames({
+                                        button: actionStyle === 'primary' || actionStyle === 'secondary',
+                                        secondary: actionStyle === 'secondary',
+                                        'has-icon': !!actionIcon
+                                    })}
+                                >
+                                    <span className={classNames({ 'order-first': actionIconPos === 'right' })}>{label}</span>
+                                </Link>
                             }
                             </div>
                     </div>
