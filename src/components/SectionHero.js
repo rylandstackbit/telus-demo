@@ -38,7 +38,7 @@ export default function SectionHero(props) {
                                     href="#"
                                     className="primary"
                                 >
-                                    <span className="order-first">{label}</span>
+                                    <span className="order-first">Get Started</span>
                                 </Link>
                             }
                             </div>
