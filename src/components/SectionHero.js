@@ -19,10 +19,10 @@ export default function SectionHero(props) {
             <div className="inner">
                 <div className="grid">
                         <div className="cell block-preview">
-                        {image ? (
+                        {image ? 
                             <img src={withPrefix(image)} alt={imageAlt} /> :
                             <img src="https://images.ctfassets.net/l4hs1gcqh34s/1HdY5LVNbRyJ5OLF3AY1eL/a81f5c597f4a0181eab7407774b66a85/Screen_Shot_2021-07-22_at_2.27.36_PM.png" alt="Default Hero Image"/>
-                        )}
+                        }
                         </div>
                     <div className="cell block-content">
                         {title && <h2 className="block-title underline">{title}</h2>}
