@@ -21,27 +21,15 @@ export default function Post(props) {
                 <div className="inner-medium">
                     <article className="post post-full">
                         <header className="post-header">
-                            {title === "lorem-ipsum" ? 
-                                <h1 className="post-title">Set Up Your Title in the Sidebar</h1>
-                                : <h1 className="post-title">{title}</h1>
-                            }
-                            {subtitle === "lorem-ipsum" ? 
-                                <div className="post-subtitle">Set up your subtitle in the sidebar too!</div>
-                                : <div className="post-subtitle">{subtitle}</div>
-                            }
+                            <h1 className="post-title">{title}</h1>
+                            {subtitle && <div className="post-subtitle">{subtitle}</div>}
                         </header>
                         {image && (
                             <div className="post-image">
                                 <img src={withPrefix(image)} alt={imageAlt} />
                             </div>
                         )}
-                        {content == "Lorem impsum" ? 
-                        (
-                            <div className="post-content">
-                                <ReactMarkdown><p>Lorem ipsum</p></ReactMarkdown>
-                            </div>
-                        )
-                        : (
+                        {content && (
                             <div className="post-content">
                                 <ReactMarkdown>{content}</ReactMarkdown>
                             </div>
