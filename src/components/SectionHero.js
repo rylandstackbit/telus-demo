@@ -35,8 +35,7 @@ export default function SectionHero(props) {
                             {actions ? 
                                 <CtaButtons actions={actions} /> :
                                 <Link
-                                    href={withPrefix(url)}
-                                    {...attrs}
+                                    href="#"
                                     className={classNames({
                                         button: actionStyle === 'primary' || actionStyle === 'secondary',
                                         secondary: actionStyle === 'secondary',
