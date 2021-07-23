@@ -37,7 +37,7 @@ export default function SectionHero(props) {
                                 <CtaButtons actions={actions} /> :
                                 <Link
                                     href="#"
-                                    className="primary"
+                                    className="button"
                                 >
                                     <span className="order-first">Get Started</span>
                                 </Link>
