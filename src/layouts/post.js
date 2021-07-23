@@ -38,7 +38,7 @@ export default function Post(props) {
                         {content == "Lorem impsum" ? 
                         (
                             <div className="post-content">
-                                <ReactMarkdown>{content}</ReactMarkdown>
+                                <ReactMarkdown><p>Lorem ipsum</ReactMarkdown>
                             </div>
                         )
                         : (
