@@ -32,9 +32,11 @@ export default function SectionHero(props) {
                             </div>
                         )}
                             <div className="block-buttons">
-                                <CtaButtons actions={actions} />
+                            {actions ? 
+                                <CtaButtons actions={actions} /> :
+                                
+                            }
                             </div>
-                        )}
                     </div>
                 </div>
             </div>
