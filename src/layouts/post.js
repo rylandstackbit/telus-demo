@@ -35,7 +35,7 @@ export default function Post(props) {
                                 <img src={withPrefix(image)} alt={imageAlt} />
                             </div>
                         )}
-                        {content == "Lorem impsum" && (
+                        {content == "Lorem impsum" ? (
                             <div className="post-content">
                                 <ReactMarkdown>{content}</ReactMarkdown>
                             </div>
