@@ -22,7 +22,7 @@ export default function Post(props) {
                     <article className="post post-full">
                         <header className="post-header">
                             {title === "lorem-ipsum" ? 
-                                <h1 className="post-title">{title}</h1>
+                                <h1 className="post-title">This is the title</h1>
                                 : <h1 className="post-title">{title}</h1>
                             }
                             <h1 className="post-title">{title}</h1>
